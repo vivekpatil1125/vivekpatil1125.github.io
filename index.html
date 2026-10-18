@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Vivek Patil | Full-Stack Developer</title>
+<meta name="description" content="Portfolio of Vivek Patil, full-stack developer and MCA student at MSU." />
+<link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Sora:wght@600;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<script src="script.js" defer></script>
+</head>
+<body>
+<div id="progress"></div>
+<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+
+<header class="bar">
+  <a class="logo" href="#home">vp<b>.</b></a>
+  <nav id="nav">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="tools">
+    <button id="palette-btn" class="pill" aria-label="Open command menu">Search <kbd>Ctrl K</kbd></button>
+    <button id="theme" class="pill icon" aria-label="Toggle light and dark theme">◐</button>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <p class="status"><span class="dot"></span>Open to full-time roles · Vadodara, India</p>
+  <h1>Hi, I'm Vivek.<br>I build <span id="typed" aria-live="polite"></span><span class="caret"></span></h1>
+  <p class="lead">Full-stack developer and MCA student at MSU who builds end-to-end web apps with real-time features, API integrations and LLMs. National hackathon winner, BCA 9.82 CGPA.</p>
+  <div class="row">
+    <a class="btn primary" href="#projects">See my work</a>
+    <a class="btn" href="documents/vivek_resume.pdf" target="_blank" rel="noopener">Resume</a>
+    <button class="btn" id="copy" data-copy="vivekpatilwork1125@gmail.com">Copy email</button>
+  </div>
+  <div class="stats">
+    <div><b data-count="9.82" data-dec="2">0</b><span>BCA CGPA</span></div>
+    <div><b data-count="3">0</b><span>University 1st ranks</span></div>
+    <div><b data-count="6">0</b><span>Projects built</span></div>
+    <div><b data-count="2">0</b><span>Hackathon podiums</span></div>
+  </div>
+  <img class="me" src="images/me.jpg" alt="Portrait of Vivek Patil" />
+</section>
+
+<section id="about" class="sec">
+  <h2>About</h2>
+  <div class="grid2">
+    <div class="prose">
+      <p>I'm a developer with a strong grasp of programming fundamentals and hands-on experience building end-to-end web applications, including real-time features and API integration. I combine creativity with analytical thinking to build effective solutions.</p>
+      <p>I finished my BCA at Sardar Patel University with a 9.82 CGPA and I'm now doing my MCA at Maharaja Sayajirao University. I've also taught programming as a visiting faculty member, which sharpened how I explain ideas.</p>
+      <p>I'm adaptable, quick to learn, and looking for a dynamic team where I can keep growing.</p>
+      <p class="langs">Languages: English, Hindi, Marathi, Gujarati</p>
+    </div>
+    <div class="stack">
+      <article class="card tilt"><h3>🏆 1st rank, TechSprint 2026</h3><p>National-level hackathon.</p></article>
+      <article class="card tilt"><h3>🥉 3rd place, Codemanthan 2.0</h3><p>Hackathon podium finish.</p></article>
+      <article class="card tilt"><h3>🎓 1st rank in university</h3><p>BCA Semesters 2, 3 and 6, with a perfect 10 GPA in Semesters 3 and 6.</p></article>
+      <article class="card tilt"><h3>🥇 Best Project Award</h3><p>BCA final year.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="sec">
+  <h2>Skills</h2>
+  <div class="grid3">
+    <article class="card"><h3>Languages</h3><div class="chips"><span>C</span><span>C++</span><span>Java</span><span>Python</span><span>JavaScript</span></div></article>
+    <article class="card"><h3>Frontend</h3><div class="chips"><span>React.js</span><span>HTML5</span><span>CSS3</span></div></article>
+    <article class="card"><h3>Backend</h3><div class="chips"><span>Node.js</span><span>Express.js</span><span>FastAPI</span><span>REST APIs</span></div></article>
+    <article class="card"><h3>Database</h3><div class="chips"><span>SQL</span><span>MongoDB</span></div></article>
+    <article class="card"><h3>Tools</h3><div class="chips"><span>Git</span><span>GitHub</span><span>Socket.io</span></div></article>
+    <article class="card"><h3>Generative AI &amp; ML</h3><div class="chips"><span>Prompt engineering</span><span>LLM APIs (Gemini, DeepSeek, Llama)</span><span>AI-assisted development</span><span>RAG concepts</span><span>Regression</span><span>Classification</span><span>Clustering</span></div></article>
+    <article class="card"><h3>Soft skills</h3><div class="chips"><span>Communication</span><span>Teamwork</span><span>Leadership</span><span>Problem solving</span><span>Adaptability</span><span>Quick learner</span><span>Creative</span></div></article>
+  </div>
+</section>
+
+<section id="education" class="sec">
+  <h2>Experience &amp; education</h2>
+  <div class="grid2">
+    <article class="card">
+      <h3>Visiting Faculty</h3><p>Balaji College of Commerce, Science, Technology and Management · Aug 2025 – Jan 2026</p>
+      <p class="sp">Taught C programming, HTML, CSS and JavaScript to a class of 30 BCA students.</p>
+      <h3 class="sp">Certifications</h3>
+      <ul class="plain"><li>Software Engineering Job Simulation, JPMorgan Chase &amp; Co. (Forage) · <a class="link" href="documents/forage_certificate.pdf" target="_blank" rel="noopener">View ↗</a></li>
+      <li>IBM Web Development Fundamentals</li>
+      <li>Advanced Course on Emerging Technologies (AI/ML, deep learning, edge computing, SAP Analytics Cloud, ABAP on BTP), SAP Code Unnati Program &amp; Edunet Foundation</li></ul>
+    </article>
+    <article class="card">
+      <h3>MCA, Maharaja Sayajirao University</h3><p>Vadodara · 2025 – 2027 · 75.66%</p>
+      <h3 class="sp">BCA, Sardar Patel University</h3><p>Anand · 2022 – 2025 · CGPA 9.82 / 10</p>
+      <div class="gpa" role="img" aria-label="Semester GPAs 9.36, 9.91, 10, 9.86, 9.75, 10">
+        <div style="--g:9.36"><i></i><b>9.36</b></div><div style="--g:9.91"><i></i><b>9.91</b></div><div style="--g:10"><i></i><b>10</b></div>
+        <div style="--g:9.86"><i></i><b>9.86</b></div><div style="--g:9.75"><i></i><b>9.75</b></div><div style="--g:10"><i></i><b>10</b></div>
+      </div>
+      <a class="link" href="documents/MARKSHEET.pdf" target="_blank" rel="noopener">View marksheets ↗</a>
+    </article>
+  </div>
+</section>
+
+<section id="projects" class="sec">
+  <h2>Projects</h2>
+  <div class="filters" role="tablist">
+    <button class="pill on" data-f="all">All</button><button class="pill" data-f="fullstack">Full-stack</button><button class="pill" data-f="ai">AI</button><button class="pill" data-f="web">Web</button><button class="pill" data-f="apps">Apps &amp; CV</button>
+  </div>
+  <div class="grid2" id="projlist">
+    <article class="card proj tilt" data-tags="fullstack ai">
+      <h3>Code Together: collaborative IDE</h3>
+      <div class="chips"><span>MERN</span><span>Socket.io</span><span>Monaco Editor</span><span>Judge0</span><span>GitHub API</span><span>LLMs</span></div>
+      <p>A synchronized in-browser IDE with “Pass the Mic” controls for Team and Classroom modes. It runs code in many languages through Judge0, commits to GitHub from the browser, and has a side-by-side AI debugger (Gemini, DeepSeek, Llama) plus live video and chat with Stream.io. JWT auth and Zustand state.</p>
+      <div class="row"><!-- TODO: replace with the exact Code Together repo URL --><a class="btn" href="https://github.com/vivekpatil1125?tab=repositories" target="_blank" rel="noopener">GitHub ↗</a></div>
+    </article>
+    <article class="card proj tilt" data-tags="ai apps">
+      <h3>AI Desktop Assistant</h3>
+      <div class="chips"><span>Java</span><span>Swing</span><span>Wit.ai</span><span>Gemini API</span><span>Gson</span></div>
+      <p>Text and voice assistant that launches apps, searches files, controls the system, sets reminders and searches the web. Uses Wit.ai for speech-to-text, Gemini for context-aware replies, and multithreaded, event-driven Java.</p>
+      <div class="row"><!-- TODO: replace with the exact AI Desktop Assistant repo URL --><a class="btn" href="https://github.com/vivekpatil1125?tab=repositories" target="_blank" rel="noopener">GitHub ↗</a></div>
+    </article>
+    <article class="card proj tilt" data-tags="apps">
+      <h3>Image Anomaly Detection Pipeline</h3>
+      <div class="chips"><span>C++</span><span>OpenCV</span></div>
+      <p>A C++ computer vision pipeline that finds and measures internal defect regions in scanned images: Gaussian blur, Otsu segmentation, contour detection, and annotated output images. Built as modular OOP stages.</p>
+      <div class="row"><!-- TODO: replace with the exact Image Anomaly repo URL --><a class="btn" href="https://github.com/vivekpatil1125?tab=repositories" target="_blank" rel="noopener">GitHub ↗</a></div>
+    </article>
+    <article class="card proj tilt" data-tags="apps">
+      <h3>PrivacyScope</h3>
+      <div class="chips"><span>Android</span><span>Permission analysis</span></div>
+      <p>An Android app that compares the permissions apps declare with what they actually use, exposing hidden access to sensitive device resources and alerting users to privacy risks.</p>
+      <div class="row"><!-- TODO: replace with the exact PrivacyScope repo URL --><a class="btn" href="https://github.com/vivekpatil1125?tab=repositories" target="_blank" rel="noopener">GitHub ↗</a></div>
+    </article>
+    <article class="card proj tilt" data-tags="web">
+      <img src="images/sneaks.png" alt="Shoes selling website banner" /><h3>Shoes Selling Website</h3>
+      <div class="chips"><span>PHP</span><span>Bootstrap</span><span>JavaScript</span><span>jQuery</span></div>
+      <p>Responsive e-commerce site with a payment gateway API, email account recovery and a dynamic database for products, orders and users. Hosted free on InfinityFree.</p>
+      <div class="row"><a class="btn primary" href="https://sneaks.wuaze.com" target="_blank" rel="noopener">Live demo ↗</a><a class="btn" href="https://github.com/vivekpatil1125/sneaks" target="_blank" rel="noopener">GitHub ↗</a></div>
+    </article>
+    <article class="card proj tilt" data-tags="web">
+      <img src="images/qrlogo.png" alt="QR code generator banner" /><h3>QR Code Generator</h3>
+      <div class="chips"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>API</span></div>
+      <p>QR generator with custom size and colour, PNG download, a clickable URL and a dark/light toggle. Hosted free on InfinityFree.</p>
+      <div class="row"><a class="btn primary" href="https://qrgenerator.wuaze.com" target="_blank" rel="noopener">Live demo ↗</a><a class="btn" href="https://github.com/vivekpatil1125/QRGenerator" target="_blank" rel="noopener">GitHub ↗</a></div>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="sec">
+  <h2>Let's talk</h2>
+  <div class="grid2">
+    <form class="card" id="form">
+      <label>Your name<input name="name" required autocomplete="name" /></label>
+      <label>Your email<input name="email" type="email" required autocomplete="email" /></label>
+      <label>Message<textarea name="msg" rows="4" required></textarea></label>
+      <button class="btn primary" type="submit">Send email</button>
+      <p class="hint">This opens your email app with the message filled in.</p>
+    </form>
+    <div class="stack">
+      <a class="card link-card" href="https://www.linkedin.com/in/vivekpatil1125" target="_blank" rel="noopener"><h3>LinkedIn ↗</h3><p>Connect with me professionally.</p></a>
+      <a class="card link-card" href="https://github.com/vivekpatil1125" target="_blank" rel="noopener"><h3>GitHub ↗</h3><p>Explore my code repositories.</p></a>
+      <a class="card link-card" href="tel:+917249504782"><h3>Call 7249504782</h3><p>Vadodara, Gujarat.</p></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><p>© 2025 Vivek Patil. All rights reserved.</p><a href="#home">Back to top ↑</a></footer>
+
+<div id="palette" hidden>
+  <div class="pal-box" role="dialog" aria-label="Command menu">
+    <input id="pal-input" placeholder="Jump to a section or action…" autocomplete="off" />
+    <ul id="pal-list"></ul>
+  </div>
+</div>
+<div id="toast" role="status"></div>
+</body>
+</html>
